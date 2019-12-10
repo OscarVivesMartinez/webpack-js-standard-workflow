@@ -2,7 +2,7 @@
 // console.log(think);
 
 module.exports = {
-    mode: 6,
+    mode: 7,
     devtool: 6,
     entry: 'src/index.jsx',
     output: {
