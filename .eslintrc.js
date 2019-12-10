@@ -15,7 +15,15 @@ module.exports = {
         sourceType: 'module',
     },
     rules: {
-        "comma-dangle": ["error", "never"],
-        // 'linebreak-style': ['error', 'windows'],
+        'semi': ['error', 'never'],
+        'indent': ['error', 4],
+        'comma-dangle': ['error', {
+            'arrays': 'only-multiline',
+            'objects': 'only-multiline',
+            'imports': 'never',
+            'exports': 'never',
+            'functions': 'never'
+        }],
+        'linebreak-style': ['error', 'unix'],
     },
-};
+}

@@ -1,6 +1,6 @@
 {
     "printWidth": 80,
-    "tabWidth": 2,
+    "tabWidth": 4,
     "useTabs": false,
     "semi": false,
     "singleQuote": true,
@@ -8,6 +8,6 @@
     "proseWrap": "preserve",
     "trailingComma": "es5",
     "bracketSpacing": true,
-    "endOfLine": "auto",
+    "endOfLine": "lf",
     "arrowParens": "always"
 }
